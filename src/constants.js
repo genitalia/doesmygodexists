@@ -1,17 +1,29 @@
 export const GODS = [
-  { name: "God", existence: "No", category: 0 },
-  { name: "Yahweh", existence: "No", category: 0 },
-  { name: "Allah", existence: "No", category: 0 },
-  { name: "Jehovah", existence: "No", category: 0 },
-  { name: "Elohim", existence: "No", category: 0 },
-  { name: "Buddah", existence: "No", category: 0 },
-  { name: "Krishna", existence: "No", category: 0 },
-  { name: "Waheguru", existence: "No", category: 1 },
-  { name: "Zeus", existence: "Not anymore", category: 1 },
-  { name: "Mars", existence: "Not anymore", category: 1 },
-  { name: "Jupiter", existence: "Not anymore", category: 1 },
-  { name: "Ganesha", existence: "No", category: 1 },
-  { name: "Vishnu", existence: "No", category: 1 },
-  { name: "Shiva", existence: "No", category: 1 },
-  { name: "Lakshmi", existence: "No", category: 1 }
+  [
+    { name: "God", existence: "No" },
+    { name: "Yahweh", existence: "No" },
+    { name: "Allah", existence: "No" },
+    { name: "Jehovah", existence: "No" },
+    { name: "Elohim", existence: "No" },
+    { name: "Buddah", existence: "No" },
+    { name: "Krishna", existence: "No" }
+  ],
+
+  [
+    { name: "Zeus", existence: "Not anymore" },
+    { name: "Amun-Ra", existence: "Not anymore" },
+    { name: "Odin", existence: "Not anymore" },
+    { name: "Mars", existence: "Not anymore" },
+    { name: "Vishnu", existence: "No" },
+    { name: "Lakshmi", existence: "No" },
+    { name: "Thor", existence: "Not anymore" },
+    { name: "Loki", existence: "Not anymore" },
+    { name: "Shiva", existence: "No" },
+    { name: "Ganesha", existence: "No" },
+    { name: "Waheguru", existence: "No" },
+    { name: "Isis", existence: "Not anymore" },
+    { name: "Osiris", existence: "Not anymore" },
+    { name: "Horus", existence: "Not anymore" },
+    { name: "Seth", existence: "Not anymore" }
+  ]
 ];

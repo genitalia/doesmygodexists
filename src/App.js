@@ -46,6 +46,7 @@ class App extends Component {
     const god = this.state.currentGod;
     return (
       <div className="god-result">
+        <p style={{ "font-size": "70px" }}>The answer is:</p>
         <div className="god-existence">{god.existence}</div>
         <a onClick={() => this.doesExist(god)}>Check again </a>
         <a onClick={() => this.reset()}>Choose different god</a>

@@ -3,8 +3,8 @@ import "./god-picker.css";
 import { GODS } from "../../constants";
 import { GodLabel } from "../god-label";
 
-const renderGods = (category, onSelect) => {
-  return GODS.filter(g => g.category === category).map(god => (
+const renderGods = (group, onSelect) => {
+  return GODS[group].map(god => (
     <GodLabel key={god.name} name={god.name} onSelect={() => onSelect(god)} />
   ));
 };
