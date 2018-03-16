@@ -56,8 +56,9 @@ h1 {
   margin: 80px;
 }
 
-@media (max-width: 750px) { 
+@media (max-width: 665px) { 
   h1 {
-    font-size: 48px;
+    font-size: 65px;
+    margin-top: 0;
   }
 }
