@@ -1,0 +1,23 @@
+.god-loader {
+    margin: 95px;
+}
+
+.loading-text {
+    font-size: 32px;
+}
+
+.god-name {
+    font-weight: bold;
+    text-shadow: #fffb6e 0px 0px 21px
+}
+
+
+@media (max-width: 750px) { 
+    .god-loader {
+        margin: 20px;
+        margin-top: 95px;
+    }
+    .loading-text {
+        font-size: 23px;
+    }
+  }

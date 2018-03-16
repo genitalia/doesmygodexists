@@ -1,0 +1,63 @@
+.App {
+  text-align: center;
+  color: #333;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding-top: 1px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+h1 {
+  font-size: 69px;
+}
+
+.disclaimer {
+  margin: 0;
+  background: #ccc;
+  padding: 40px;
+}
+
+.god-result a {
+  display: inline-block;
+  border-radius: 5px;
+  background-color: lightskyblue;
+  padding: 10px;
+  font-size: 16px;
+  width: 200px;
+  cursor: pointer;
+  transition: background-color 0.05s ease-in-out;
+}
+.god-result a {
+  margin-top: 8px;
+  margin-right: 8px;
+}
+.god-result a:hover {
+  background-color: #bae5ff
+}
+
+.god-existence {
+  font-size: 98px;
+  margin: 80px;
+}
+
+@media (max-width: 750px) { 
+  h1 {
+    font-size: 48px;
+  }
+}
