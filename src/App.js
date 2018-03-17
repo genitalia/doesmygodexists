@@ -49,8 +49,22 @@ class App extends Component {
       <div className="god-result">
         <p style={{ fontSize: "70px" }}>The answer is:</p>
         <div className="god-existence">{god.existence}</div>
-        <a onClick={() => this.doesExist(god)}>Check again </a>
-        <a onClick={() => this.reset()}>Choose different god</a>
+        <a
+          onClick={() => {
+            window.gtag("event", "try-again");
+            this.doesExist(god);
+          }}
+        >
+          Check again{" "}
+        </a>
+        <a
+          onClick={() => {
+            window.gtag("event", "reset");
+            this.reset();
+          }}
+        >
+          Choose different god
+        </a>
       </div>
     );
   };
