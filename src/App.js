@@ -32,6 +32,7 @@ class App extends Component {
         currentGod: god
       },
       () => {
+        window.gtag("event", "search", { search_term: god.name });
         setTimeout(() => {
           this.setState({
             phase: STATUS[2],
@@ -46,7 +47,7 @@ class App extends Component {
     const god = this.state.currentGod;
     return (
       <div className="god-result">
-        <p style={{ "font-size": "70px" }}>The answer is:</p>
+        <p style={{ fontSize: "70px" }}>The answer is:</p>
         <div className="god-existence">{god.existence}</div>
         <a onClick={() => this.doesExist(god)}>Check again </a>
         <a onClick={() => this.reset()}>Choose different god</a>
